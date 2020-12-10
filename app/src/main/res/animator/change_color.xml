@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator
+            android:propertyName="backgroundColor"
+            android:valueFrom="@color/blueSky"
+            android:valueTo="@color/greySunset"
+            android:duration="1500"
+            />
+
+        <objectAnimator
+            android:propertyName="backgroundColor"
+            android:valueFrom="@color/greySunset"
+            android:valueTo="@color/orangeSkySunset"
+            android:duration="1500"
+            />
+
+    </set>
+</set>
